@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-bubble : 'Bubblegum Sans', cursive;
+}
+
+header {
+    background-color: #FFCC00;
+    height: 20vh;
+}
+
+header h1 {
+    font-family: var(--font-bubble);
+    color: #FF1C24;
+    font-size: 3em;
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+.calculator-container h2 {
+    color:#FF1C24;
+    text-align: center;
+    margin-top: 2em;
+    font-family: sans-serif;
+    font-size: 2em;
+    font-weight: 800;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.calculator-container h2:hover {
+    background-color: #abb8c3;
+}
+
+.images-content {
+    display: flex;
+    max-width: 80%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+
+.images-content:hover {
+    background-color: #abb8c3;
+}
+
+.guests input {
+    background-color: #FFEF71;
+    height: 3em;
+    width: 17em; 
+    border: none;
+    margin-left: 0.5em;
+    margin-bottom: 1em;
+    text-align: center;
+    font-size: 1em;
+}
+
+.guests img {
+    height: 350px;
+    width: 290px;
+}
+
+.guests input::placeholder{
+    font-size: 1em;
+    text-align: center;
+    color: black;
+}
+
+.button {
+    background-color: #FF1C24;
+    color: #FFEF71;
+    height: 3em;
+    width: 12em;
+    border: none;
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 1px solid #FF1C24;
+}
+
+.button:hover {
+    background-color: #fff;
+    color:#FF1C24
+}
+
+#result {
+    display: block;
+    background-color: #FF1C24;
+    text-align: center;
+    height: 10vh;
+    width: 25vh;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    padding-top:1em;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: #fff;
+    border-radius: 10px;
+}
+.footer {
+    height: 10vh;
+    background-color: #FFCC00;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/media.css">
+    <script defer src="./scripts/scripts.js"></script>
+    <title>Calculadora de Churrasco</title>
+</head>
+
+<body>
+    <header>
+        <h1>Calculadora de Churrasco</h1>
+    </header>
+    <section>
+        <div class="calculator-container">
+            <h2>Quantos convidados</h2>
+            <div class="images-content">
+                <div class="guests">
+                    <img src="./images/homem.png" alt="Homem">
+                    <input id="manCalc" type="number" placeholder="Digite">
+                </div>
+                <div class="guests">
+                    <img src="./images/mulher.png" alt="Mulher">
+                    <input id="womanCalc" type="number" placeholder="Digite">
+                </div>
+                <div class="guests">
+                    <img src="./images/crianca.png" alt="Criança">
+                    <input id="childCalc"type="number" placeholder="Digite">
+                </div>
+            </div>
+            <button onclick="resultBtn()"class="button">Enviar</button>
+            <div id="result"></div>
+    </section>
+    <footer class="footer">
+
+    </footer>
+</body>
+
+</html>
