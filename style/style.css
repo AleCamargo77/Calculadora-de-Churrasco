@@ -74,8 +74,16 @@ header h1 {
 }
 
 .button {
-    background-color: #FF1C24;
-    color: #FFEF71;
+    background: black;
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    border-radius: 25px;
+    overflow: hidden;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 3s;
+    letter-spacing: 5px;
     height: 3em;
     width: 12em;
     border: none;
@@ -86,17 +94,16 @@ header h1 {
     margin-bottom: 3em;
     text-transform: uppercase;
     cursor: pointer;
-    border: 1px solid #FF1C24;
 }
 
 .button:hover {
-    background-color: #fff;
-    color:#FF1C24
+    color: #FF1C24;
+    text-shadow: 0 0 10px #ff0, 0 0 20px #ff0, 0 0 30px #ff0, 0 0 40px #ff0, 0 0 50px #ff0;
 }
 
 #result {
-    display: block;
-    background-color: #FF1C24;
+    display: none;
+    background-color: black;
     text-align: center;
     height: 10vh;
     width: 25vh;
@@ -110,5 +117,5 @@ header h1 {
 }
 .footer {
     height: 10vh;
-    background-color: #FFCC00;
+    background-color: #FFCC00;   
 }

@@ -1,0 +1,16 @@
+@media (max-width: 550px){
+    .images-content{
+        display: flex;
+        flex-direction: column;
+        max-width: 60%;
+        border: none;
+    }
+
+    .images-content:hover {
+        background-color: #fff;
+    }
+
+    #result {
+        height: 12vh;
+    }
+}
