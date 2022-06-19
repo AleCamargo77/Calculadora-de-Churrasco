@@ -15,14 +15,14 @@ function resultBtn() {
     let resultChickenChild = (child * 0.04);
     let resultSausageChild = (child * 0.06);
 
-    let resultBovineTot = parseFloat(resultBovineMan + resultBovineWoman + resultBovineChild).toFixed(2);
-    let resultChickenTot = parseFloat(resultChickenMan + resultChickenWoman + resultChickenChild).toFixed(2);
-    let resultSausageTot = parseFloat(resultSausageMan + resultSausageWoman + resultSausageChild).toFixed(2);
+    let resultBovineTot = parseFloat(resultBovineMan + resultBovineWoman + resultBovineChild).toFixed(3);
+    let resultChickenTot = parseFloat(resultChickenMan + resultChickenWoman + resultChickenChild).toFixed(3);
+    let resultSausageTot = parseFloat(resultSausageMan + resultSausageWoman + resultSausageChild).toFixed(3);
     const resultBovineTotFormatado = parseFloat(resultBovineTot);
     const resultChickenTotFormatado = parseFloat(resultChickenTot);
     const resultSausageTotFormatado = parseFloat(resultSausageTot);
 
-    let resultTotal = parseFloat(resultBovineTotFormatado  + resultChickenTotFormatado + resultSausageTotFormatado).toFixed(2);
+    let resultTotal = parseFloat(resultBovineTotFormatado  + resultChickenTotFormatado + resultSausageTotFormatado).toFixed(3);
 
     document.getElementById('tittle').innerHTML = `Lista de Carnes`;
     document.getElementById('result').innerHTML = `Bovino: ${resultBovineTot} Kg`;
