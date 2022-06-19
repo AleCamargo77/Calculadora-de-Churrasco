@@ -101,21 +101,38 @@ header h1 {
     text-shadow: 0 0 10px #ff0, 0 0 20px #ff0, 0 0 30px #ff0, 0 0 40px #ff0, 0 0 50px #ff0;
 }
 
-#result {
+#result, #resultChicken, #resultSausage {
     display: none;
     background-color: black;
     text-align: center;
     height: 10vh;
-    width: 25vh;
+    width: 30vh;
     margin: 0 auto;
-    margin-bottom: 1em;
+    /* margin-bottom: 1em; */
     padding-top:1em;
     font-family: sans-serif;
     font-weight: 800;
     color: #fff;
-    border-radius: 10px;
+    /* border-radius: 10px; */
+}
+
+#tittle, #resultTotal {
+    display: none;
+    background-color: #FF1C24;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 30vh; 
+    font-family: sans-serif;
+    font-weight: 800;
+    color: #fff;
+}
+
+#resultContainer {
+    background-color: tomato;
 }
 .footer {
     height: 10vh;
     background-color: #FFCC00;   
+    margin-top: 1em;
+
 }

@@ -2,16 +2,36 @@ function resultBtn() {
     const man = document.getElementById('manCalc').value;
     const woman = document.getElementById('womanCalc').value;
     const child = document.getElementById('childCalc').value;
-
-
-    let resultMan = (man * 0.5);
-    let resultBovine = (man * 0.25);
-    let resultChicken = (man * 0.1);
-    let resultSausage = (man * 0.15);
     
-    let resultWoman = (woman * 0.3);
-    let resultChild = (child * 0.2);
-    let resultTotal = (resultMan + resultWoman + resultChild);
-    document.getElementById('result').innerHTML = `Total é de ${resultTotal} Kg`;
+    let resultBovineMan = (man * 0.25);
+    let resultChickenMan = (man * 0.10);
+    let resultSausageMan = (man * 0.15);
+
+    let resultBovineWoman = (woman * 0.15);
+    let resultChickenWoman = (woman * 0.06);
+    let resultSausageWoman = (woman * 0.09);
+   
+    let resultBovineChild = (child * 0.10);
+    let resultChickenChild = (child * 0.04);
+    let resultSausageChild = (child * 0.06);
+
+    let resultBovineTot = parseFloat(resultBovineMan + resultBovineWoman + resultBovineChild).toFixed(2);
+    let resultChickenTot = parseFloat(resultChickenMan + resultChickenWoman + resultChickenChild).toFixed(2);
+    let resultSausageTot = parseFloat(resultSausageMan + resultSausageWoman + resultSausageChild).toFixed(2);
+    const resultBovineTotFormatado = parseFloat(resultBovineTot);
+    const resultChickenTotFormatado = parseFloat(resultChickenTot);
+    const resultSausageTotFormatado = parseFloat(resultSausageTot);
+
+    let resultTotal = parseFloat(resultBovineTotFormatado  + resultChickenTotFormatado + resultSausageTotFormatado).toFixed(2);
+
+    document.getElementById('tittle').innerHTML = `Lista de Carnes`;
+    document.getElementById('result').innerHTML = `Bovino: ${resultBovineTot} Kg`;
+    document.getElementById('resultChicken').innerHTML = `Frango: ${resultChickenTot} Kg`;
+    document.getElementById('resultSausage').innerHTML = `Linguiça: ${resultSausageTot} Kg`;
+    document.getElementById('resultTotal').innerHTML = `Total: ${resultTotal} Kg `
+    document.getElementById('tittle').style.display = 'block';
     document.getElementById('result').style.display = 'block';
+    document.getElementById('resultChicken').style.display = 'block';
+    document.getElementById('resultSausage').style.display = 'block';
+    document.getElementById('resultTotal').style.display = 'block';
 }
