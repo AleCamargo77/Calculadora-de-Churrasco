@@ -5,13 +5,17 @@
 A Calculadora de Churrasco tem como finalidade informar a quantidade necessária de carne em Kilos, respeitando o gênero, para realização do churrasco.
 
 
-<h2>Tecnologias</h2>
+## 🧑🏻‍💻 Tecnologias 
 
 <ul dir="auto">
   <li> HTML </li> 
   <li> CSS </li>
   <li> Javascript </li> 
 </ul>
+
+## 🤔 Funcionalidades e como acessar o projeto ?
+
+
 
 <p dir="auto">Link para acessar o projeto: <a href="https://alecamargo77.github.io/Calculadora-de-Churrasco/" rel="nofollow"> Calculadora de Churrasco </a></p>
 
