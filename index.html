@@ -21,34 +21,32 @@
             <form class="images-content">
                 <div class="guests">
                     <img src="./images/homem.png" alt="Homem">
-                    <input type="number" id="manCalc" name="manCalc" placeholder="Digite" />
-                    <input type="reset" value="Reset">
+                    <input type="number" id="manCalc" name="manCalc" placeholder="Digite">
                 </div>
                 <div class="guests">
                     <img src="./images/mulher.png" alt="Mulher">
-                    <input id="womanCalc" type="text" placeholder="Digite">
-                    <input type="reset" value="Reset">
+                    <input id="womanCalc" type="number" placeholder="Digite">                  
                 </div>
                 <div class="guests">
                     <img src="./images/crianca.png" alt="Criança">
                     <input id="childCalc" type="number" placeholder="Digite">
-                    <input type="reset" value="Reset">
+                    <input id="reset" type="reset" value="Reset">
                 </div>
             </form>
-            <button onclick="resultBtn()" class="button">Enviar</button>
-                <div id="tittle"></div>
-                <div id="result"></div>
-                <span id="resultChicken"></span>
-                <span id="resultSausage"></span>
-                <div id="resultTotal"></div>
-            
-
-
+            <div class="btn-result">
+                <button onclick="resultBtn()" class="button">Enviar</button>
+                
+            </div>
+            <div id="tittle"></div>
+            <div id="result"></div>
+            <span id="resultChicken"></span>
+            <span id="resultSausage"></span>
+            <div id="resultTotal"></div>
+            <button onclick="clearResults()" id="clear">Limpar</button>
     </section>
     <footer class="footer">
         <span><strong>®</strong>Alessandro Camargo</span>
         <span>Codai por nós</span>
     </footer>
 </body>
-
 </html>

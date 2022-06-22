@@ -13,6 +13,8 @@
 header {
     background-color: #FFCC00;
     height: 20vh;
+    width: 100%;
+    position: fixed;
 }
 
 header h1 {
@@ -21,6 +23,10 @@ header h1 {
     font-size: 3em;
     text-align: center;
     padding-top: 0.5em;
+}
+
+.calculator-container {
+    padding-top: 8em;
 }
 
 .calculator-container h2 {
@@ -62,6 +68,10 @@ header h1 {
     font-size: 1em;
 }
 
+#reset {
+    width: 5em;
+}
+
 .guests img {
     height: 350px;
     width: 290px;
@@ -101,6 +111,24 @@ header h1 {
     text-shadow: 0 0 10px #ff0, 0 0 20px #ff0, 0 0 30px #ff0, 0 0 40px #ff0, 0 0 50px #ff0;
 }
 
+#clear{
+    display: flex;
+    margin: 0 auto;
+    background-color: black;
+    color: #ccc;
+    width: 5em;
+    border-radius: 8px;
+    justify-content: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+#clear:hover{
+    background-color: #FFCC00;
+    border: none;
+    color: black;
+}
 #result, #resultChicken, #resultSausage {
     display: none;
     background-color: black;
@@ -108,12 +136,10 @@ header h1 {
     height: 10vh;
     width: 30vh;
     margin: 0 auto;
-    /* margin-bottom: 1em; */
     padding-top:1em;
     font-family: sans-serif;
     font-weight: 800;
     color: #fff;
-    /* border-radius: 10px; */
 }
 
 #tittle, #resultTotal {
@@ -127,9 +153,6 @@ header h1 {
     color: #fff;
 }
 
-#resultContainer {
-    background-color: tomato;
-}
 .footer {
     height: 10vh;
     background-color: #FFCC00;   
@@ -149,3 +172,4 @@ header h1 {
 .footer strong{
     font-size: 2em;
 }
+
