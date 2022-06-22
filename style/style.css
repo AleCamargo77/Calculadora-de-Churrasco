@@ -14,7 +14,6 @@ header {
     background-color: #FFCC00;
     height: 20vh;
     width: 100%;
-    position: fixed;
 }
 
 header h1 {
@@ -26,7 +25,7 @@ header h1 {
 }
 
 .calculator-container {
-    padding-top: 8em;
+    padding-top: 2em;
 }
 
 .calculator-container h2 {
@@ -157,19 +156,20 @@ header h1 {
     height: 10vh;
     background-color: #FFCC00;   
     margin-top: 1em;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer span {
-    font-family: var(--font-bubble);
-    /* font-size: 1em; */
+    font-family: Helvetica, sans-serif;
+    font-size: .7em;
     color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-bottom: .5em;
 }
 
-.footer strong{
-    font-size: 2em;
+.footer p {
+    font-family: var(--font-bubble);
 }
 
