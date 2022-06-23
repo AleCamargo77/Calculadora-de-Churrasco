@@ -15,7 +15,7 @@ A Calculadora de Churrasco tem como finalidade informar a quantidade necessária
 
 ## 🤔 Funcionalidades e como acessar o projeto ?
 
-
+Inicialmente utilizado HTML e suas tags semânticas para montagem do corpo da página, no CSS utilizado resursos para estilização e efeitos, e por fim trabalhado com funções, manipulação de DOM e condição booleana dentro do Java Script.
 
 <p dir="auto">Link para acessar o projeto: <a href="https://alecamargo77.github.io/Calculadora-de-Churrasco/" rel="nofollow"> Calculadora de Churrasco </a></p>
 
